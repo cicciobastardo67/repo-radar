@@ -42,14 +42,29 @@ pitch did not mention it.**
 | [OpenSEO](repos/open-seo.md) | Semrush/Ahrefs alternative | 8.7k | Requires a paid DataForSEO account |
 | [Weft](repos/weft.md) | Language for orchestrating AI systems | 1.7k | Self-declared proof of concept |
 | [gbro-collage-broll](repos/gbro-collage-broll.md) | Collage-style B-roll from a voiceover line | 831 | 831 stars, 3 commits — effectively unmaintained |
+| [Resource2Skill](repos/resource2skill.md) | Distills skills for operating software from tutorials | 426 | 426 stars, 9 commits — a paper release |
+| [Opencodex](repos/opencodex.md) | Free coding agent inside VS Code | 13 | 34 installs; a coding agent is the wrong place to be early |
+| [IKEA 3D Downloader](repos/ikea-3d-downloader.md) | Saves `.GLB` models from IKEA product pages | — | The models are IKEA's IP — personal use only |
 
 ### 🔴 High risk
 
 | Project | What it does | ★ | Why |
 |---|---|---|---|
 | [Agent-Reach](repos/agent-reach.md) | Read access to 13 platforms for AI agents | 61.3k | Runs on your session cookies; breaks platform terms |
+| [ego (lite)](repos/ego-lite.md) | Browser that shares your logged-in sessions with agents | 2.5k | **MIT covers only the docs — the browser is closed source** |
+| [watermarks-remover](repos/watermarks-remover.md) | Strips AI provenance marks from text and files | — | Built to defeat provenance detection; a liability if you publish |
 | [Eromify](not-repos/eromify.md) | AI influencer generator | — | Closed-source MCP connector — nothing to audit |
 | [Court of Claude](not-repos/court-of-claude.md) | Unknown | — | No public URL; gated behind a comment |
+
+---
+
+## Notes
+
+Write-ups that aren't about a single project.
+
+| Note | What it covers |
+|---|---|
+| [What actually has to be declared as AI](notes/ai-act-marking.md) | EU AI Act Article 50 — who must mark, who must disclose, and why ordinary marketing copy usually needs neither |
 
 ---
 
@@ -77,8 +92,15 @@ it, while holding access to your accounts. The second deserves far more caution 
 and it is the part these posts never mention.
 
 **When a video asks you to comment a word for the link, the link is the product.**
-Two of the twelve entries here were gated or closed-source. The genuine, famous
-projects in the same feed lend them credibility they haven't earned.
+Several entries here were gated or closed-source. The genuine, famous projects in
+the same feed lend them credibility they haven't earned.
+
+**Check what the licence badge actually covers.** [ego (lite)](repos/ego-lite.md)
+is the sharpest example: an MIT badge on a repository containing documentation and
+a skill file, while the browser you actually install — the one that inherits your
+logged-in sessions — is a separate closed-source download. The badge was accurate
+and the impression it created was wrong. Ask *which artifact* the licence applies
+to, not just what the licence is.
 
 ---
 
